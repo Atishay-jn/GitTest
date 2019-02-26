@@ -13,6 +13,21 @@ body{
 	width:90% ;
 	margin: auto;
 }
+a {
+	font-size: 20px;
+}
+a:link {
+	color: #d3d3d3;
+}
+a:visited {
+	color: #A0A0A0;
+}
+a:hover {
+	color: cyan;
+}
+a:active {
+	color: #FFF;
+}
 h1
 {
 	text-align: center;
@@ -21,10 +36,15 @@ h1
 	letter-spacing: 2.5px;
 	text-shadow: 3px 2px red;
 }
+.top {
+	padding: 10px;
+	position: relative;
+	text-align: center;
+}
 .box-1 {
-	background-color: #000;
+	/*background-color: #000;*/
 	color:#FFF;
-	border: 10px red solid  ;
+	border: 10px cyan solid  ;
 	padding: 10px;
 	border-bottom-width: 15px;
 	border-bottom-style: dashed;
