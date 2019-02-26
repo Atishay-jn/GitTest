@@ -1,23 +1,29 @@
 body{
-	background-color: #f4f4f4;
-	color: rgb(0,0,255);
-
+	background-color: #000;
+	color: rgb(0,0,0);
 	font-family: Helvetica, Times New Roman, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	/* font: normal 16px Arial, Helvetica; */
 	line-height: 1.1em;
-	margin:0;
+	margin:2;
 }
 
 .container {
-	width:80% ;
-	margin:auto;
+	width:90% ;
+	margin: auto;
 }
-
+h1
+{
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 2.5px;
+	text-shadow: 3px 2px red;
+}
 .box-1 {
-	background-color: #FFFFFF;
-	color:#111111;
+	background-color: #000;
+	color:#FFF;
 	border: 10px red solid  ;
 	padding: 10px;
 	border-bottom-width: 15px;
