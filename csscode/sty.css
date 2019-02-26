@@ -1,0 +1,25 @@
+body{
+	background-color: #f4f4f4;
+	color: rgb(0,0,255);
+
+	font-family: Helvetica, Times New Roman, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	/* font: normal 16px Arial, Helvetica; */
+	line-height: 1.1em;
+	margin:0;
+}
+
+.container {
+	width:80% ;
+	margin:auto;
+}
+
+.box-1 {
+	background-color: #FFFFFF;
+	color:#111111;
+	border: 10px red solid  ;
+	padding: 10px;
+	border-bottom-width: 15px;
+	border-bottom-style: dashed;
+}
