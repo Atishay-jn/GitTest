@@ -4,4 +4,4 @@ num.push(14);
 num.forEach(function(number){
 	console.log(number);
 })
-alert(num.reverse());
+// alert(num.reverse());

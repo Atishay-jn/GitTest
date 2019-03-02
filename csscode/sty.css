@@ -12,6 +12,7 @@ body{
 .container {
 	width:90% ;
 	margin: auto;
+	/*font-weight: 700;*/
 }
 a {
 	font-size: 20px;
@@ -33,8 +34,15 @@ h1
 	text-align: center;
 	text-transform: uppercase;
 	color: white;
+	top:20%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
 	letter-spacing: 2.5px;
 	text-shadow: 3px 2px red;
+}
+.col_yellow {
+	color: yellow;
 }
 .top {
 	padding: 10px;
