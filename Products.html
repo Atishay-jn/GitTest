@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<title>Products</title>
+  <link rel="stylesheet" href="csscode/animation.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	</head>
+	<body>
+    <nav>
+      <div class="menu-icon">
+        <i class="fa fa-bars fa-2x"></i>
+      </div>
+      <div class="logo">IED</div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="file:///Users/atishay/Desktop/GitTest/Buy.html">Buy Now</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="fullpage">
+      <section>
+        <div class = "container">
+          <span class = "text_1"> Modules </span>
+        </div>
+      </section>
+      <section>2</section>
+      <section>3</section>
+      <section>4</section>
+      <section>5</section>
+    </div>
+  <script type="text/javascript">
+      // Menu-toggle button
+    $(document).ready(function() {
+      $(".menu-icon").on("click", function() {
+        $("nav ul").toggleClass("showing");
+      });
+    });
+      // Scrolling Effect
+    $(window).on("scroll", function() {
+      if($(window).scrollTop()) {
+        $('nav').addClass('black');
+      }
+      else {
+        $('nav').removeClass('black');
+      }
+    })
+  </script>
+  <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js'></script> 
+  <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script> 
+  <script type="text/javascript" src='./js/jquery.fullpage.min.js'></script> 
+  <script type="text/javascript">
+    FastClick.attach(document.body);
+      $('#fullpage').fullpage();
+  </script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</script>
+</body>
+</html>

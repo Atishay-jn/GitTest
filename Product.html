@@ -1,10 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>IED</title>
-	<link rel="stylesheet" type="text/css" href="csscode/sty.css">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Products</title>
+      <link rel="stylesheet" href="csscode/animatep.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
-<body background="Background.jpg">
+<body bgcolor="white">
+		<nav>
+			<div class="menu-icon">
+				<i class="fa fa-bars fa-2x"></i>
+			</div>
+			<div class="logo">IED</div>
+			<div class="menu">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="file:///Users/atishay/Desktop/GitTest/Buy.html">Buy Now</a></li>
+				</ul>
+			</div>
+		</nav>
+	<section>
+	<div class = "container">
+		<span class = "text_1"> Modules </span>
+	</div>
+	</section>
+	<div id="fullpage">
+		<section><h1>12</h1></section>
+		<section><h1>2</h1></section>
+		<section><h1>3</h1></section>
+		<section><h1>4</h1></section>
+	</div>
+<!--             <div class="content">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <p>
+                	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div> -->
+<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js'></script> 
+<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script> 
+<script type="text/javascript" src='./js/jquery.fullpage.min.js'></script> 
+<script type="text/javascript">
+		FastClick.attach(document.body);
+		$('#fullpage').fullpage();
+</script>
+<script type="text/javascript">
 
-</body>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  <script type="text/javascript">
+      // Menu-toggle button
+    $(document).ready(function() {
+      $(".menu-icon").on("click", function() {
+        $("nav ul").toggleClass("showing");
+      });
+    });
+      // Scrolling Effect
+    $(window).on("scroll", function() {
+      if($(window).scrollTop()) {
+        $('nav').addClass('black');
+      }
+      else {
+        $('nav').removeClass('black');
+      }
+    })
+  </script>
+  <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js'></script> 
+  <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script> 
+  <script type="text/javascript" src='./js/jquery.fullpage.min.js'></script> 
+  <script type="text/javascript">
+    FastClick.attach(document.body);
+      $('#fullpage').fullpage();
+  </script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script></body>
 </html>
