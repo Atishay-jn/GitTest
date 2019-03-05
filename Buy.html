@@ -7,6 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>    
+    <header>
+      <h1>
+        <nav>
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+          <div class="logo">IED</div>
+          <div class="menu">
+            <ul>
+              <li><a href="file:///Users/atishay/Desktop/GitTest/main.html">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="file:///Users/atishay/Desktop/GitTest/Products.html">Products</a></li>
+              <li><a href="#">Buy Now</a></li>
+            </ul>
+          </div>
+        </nav>
+      </h1>
+    </header>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <div class="page">
       <div class="countdown-col col">
         <div class="time middle">
@@ -27,19 +46,31 @@
             Seconds
           </span>
         </div>
-                <div class="holla"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>We are coming soon!</div>
+                <div class="holla"><br><br><br><br><br>We are coming soon!</div>
       </div>
-<!--       <div class="newsletter-col col">
-        <div class="newsletter middle">
-          <h2>We Will Coming Soon</h2>
-          <h4>Subscribe to get notification when we start</h4>
-          <form action="">
-            <input type="text" placeholder="Enter Your Email">
-            <input class="newsletter-btn" type="button" value="Subscribe">
-          </form>
-        </div>
-      </div>
-    </div-->
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+      </script>
     <script src="countdown.js"></script>
   </body>
 </html>

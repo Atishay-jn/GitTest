@@ -1,23 +1,23 @@
 * {
   padding: 0;
   margin: 0;
-  font-family:'Roboto';
+  font-family:"Helvetica Neue",sans-serif;
 }
 
 a {
 	font-size: 20px;
 }
 a:link {
-	color: #fff;
+	color: #d9dde2;
 }
 a:visited {
-	color: #fff;
+	color: #b5b9bf;
 }
 a:hover {
 	color: red;
 }
 a:active {
-	color: #FFF;
+	color: #d9dde2;
 }
 
 .content {
@@ -133,7 +133,7 @@ nav ul li a {
 	font-size: 60px;
 	font-weight: 500;
 	letter-spacing: 8px;
-	margin-bottom: 40px;
+	margin-bottom: -30px;
 	/*background: white;*/
 	/*background-color: cyan;*/
 	width: 60%;
@@ -150,15 +150,15 @@ nav ul li a {
 @keyframes text {
 	0% {
 		color: black;
-		margin-bottom: -40px;
+		margin-bottom: 0px;
 	}
 	30% {
 		letter-spacing: 25px;
-		margin-bottom: -40px;
+		margin-bottom: 40px;
 	}
 	85% {
 		letter-spacing: 8px;
-		margin-bottom: -40px;
+		margin-bottom: 40px;
 	}
 }
 
@@ -167,7 +167,7 @@ nav ul li a {
   height: 100vh;
   overflow: hidden;
   text-align: center;
-  font-size: 10em;
+  font-size: 5em;
   color:#fff;
 }
 
@@ -184,7 +184,7 @@ nav ul li a {
 }
 
 #fullpage section:nth-child(2) { 
-	background-color: rgb(167, 125, 194); 
+	background-color: rgb(167, 125, 194);
 }
 
 #fullpage section:nth-child(3) { 

@@ -10,7 +10,7 @@ body{
 }
 
 .container {
-	width:90% ;
+	width:100% ;
 	margin: auto;
 	/*font-weight: 700;*/
 }
@@ -36,6 +36,8 @@ h1
 	color: white;
 	top:20%;
 	left: 50%;
+	margin: 0;
+	padding: 0;
 	position: absolute;
 	transform: translate(-50%,-50%);
 	letter-spacing: 2.5px;
